@@ -8,6 +8,8 @@ This package extends the above paper by providing mapping visualizations, and th
 2. Clustering all block-faces of lengths 275-300ft in length.
 3. Clustering all block-faces in the core downtown of Seattle with the condensed label set.
 
+The notebook can viewed directly without downloading this repository [here](https://github.com/cpatdowling/curb_clustering/blob/main/curb_taxonomy.ipynb).
+
 ---
 
 #### Requirements:
