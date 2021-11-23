@@ -27,7 +27,7 @@ def plot_configs(model_path, integer_to_color_map, integer_to_space_type_map):
             handles = [plt.Rectangle((0,0),1,1, color=integer_to_color_map[label]) for label in shown_labels ]
             plt.legend(handles, [integer_to_space_type_map[i] for i in shown_labels ], loc='center left', bbox_to_anchor=(1, 0.5), fontsize=18)
         axs[index].label_outer()
-        axs[index].set_ylabel("Mediod " + str(counter+1), fontsize=16, rotation=70)
+        axs[index].set_ylabel("Mode " + str(counter+1), fontsize=16, rotation=70)
         axs[index].set_yticklabels([])
         if counter == k_star - 1 or counter == k_star - 2:
             axs[index].set_xlabel("Proportion of blockface (ordered)", fontsize=16)
